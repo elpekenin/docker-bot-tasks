@@ -1,0 +1,4 @@
+bs4
+pymongo
+pypokedex
+python-telegram-bot==13.14
