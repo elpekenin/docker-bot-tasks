@@ -5,7 +5,7 @@ MAINTAINER Pablo (elpekenin) Martinez Bernal "martinezbernalpablo@gmail.com"
 
 # Download all files
 WORKDIR /app
-RUN git clone https://github.com/elpekenin/docker-bot-tasks && shopt -s dotglob && mv -v docker-bot-tsks/* .
+RUN git clone https://github.com/elpekenin/docker-bot-tasks && shopt -s dotglob && mv -v docker-bot-tasks/* .
 
 # Install dependencies
 RUN pip3 install -r requirements.txt
