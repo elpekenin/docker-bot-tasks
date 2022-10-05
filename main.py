@@ -13,8 +13,10 @@ from typing import Any, Union
 
 
 logging.basicConfig(
-        format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
-        level=logging.INFO
+    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
+    level=logging.INFO,
+    filemode="w",
+    filename="logs/log.txt"
 )
 logger = logging.getLogger(__name__)
 
